@@ -1,0 +1,144 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+main{
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background: #ba7eff;
+    color: black;
+}
+
+.titulo{
+    width: 100%;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+    text-align: center;
+}
+
+.color{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.checar{
+    display: flex;
+    justify-content: center;
+}
+
+.resultados{
+    display: block;
+    align-self: center;
+}
+
+.respuesta{
+    height: 90px;
+    width: 230px;
+    border-radius: 20px;
+    border: transparent;
+    text-align: center;
+    letter-spacing: 4px;
+    padding: 0 20px;
+    background-color: #222222;
+    color: white;
+    font-size: 32px;
+    outline: none;
+}
+
+.revisalo{
+    height: 50px;
+    width: 240px;
+    margin-top: 30px;
+    border-radius: 10px;
+    border: transparent;
+    background-color:#222222 ;
+    font-size: 25px;
+    color: white;
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, .35);
+    outline: none;
+    cursor: pointer;
+}
+
+
+#results{
+    font-weight: normal;
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+.colorResultante{
+    width: 45px;
+    height: 45px;
+    margin-left: 10px;
+    background-color: bisque;
+    border-radius: 50px;
+    border: solid 3px;
+    border-color: rgb(48, 48, 48);
+}
+
+.ResultadoRespuesta{
+    height: 50px;
+    width: 270px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+.respuestaCorrecta{
+    height: 50px;
+    width: 270px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#responder{
+    padding-right: 20px;
+}
+
+.distancia{
+    height: 50px;
+    width: 270px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+#responderResults{
+    padding-right: 10px;
+    margin-top: 10px;
+
+}
+
+
+
+#frase1{
+    
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#otro{
+    height: 50px;
+    width: 240px;
+    margin-left: 15px;
+    border-radius: 10px;
+    border: transparent;
+    background-color:#872325;
+    font-size: 25px;
+    color: white;
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, .35);
+    outline: none;
+    cursor: pointer;
+}

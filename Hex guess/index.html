@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hex Guess!</title>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main id="main">
+        <section class="titulo">
+            <h1 id="instruccion">Adivina el <br/> color de <br/> fondo <br/> hexadecimal</h1>
+        </section>
+
+        <section class="color">
+            <div class="colorUsuario">
+                <input class="respuesta">
+            </div>
+        </section>
+
+        <section class="checar">
+            <button class="revisalo">REVISALO</button>
+        </section>
+
+        <section class="resultados">
+            <div class="ResultadoRespuesta">
+                <h1 id="results">Su color:</h1>
+                <div class="colorResultante"></div>
+            </div>
+
+            <div class="respuestaCorrecta">
+                <h1 id="results">Respuesta:</h1>
+                <h1 id="responder"></h1>
+            </div>
+
+            <div class="distancia">
+                <h1 id="responderResults"></h1>
+            </div>
+
+            
+
+            <button id="otro">OTRO</button>
+
+        </section>
+
+    </main>
+
+    <script src="data.js"></script>
+    <script src="main.js"></script>
+
+</body>
+</html>
